@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="with=device-width, initial-scale=1.0">	
+<title>Blog</title>
+<link rel="stylesheet" href="styleuni.css">	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+	
+	<!----------- Header ------------>
+	
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"> <img src="logo.jpg"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onClick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Course.html">COURSE</a></li>
+				<li><a href="Blog.html">BLOG</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+		    </ul>
+			</div>
+			<i class="fas fa-bars" onClick="showMenu()"></i>
+		</nav>
+		<h1>Our Certificate & Programs for 2022</h1>
+
+	</section>
+	
+	<!----------- Blog Content ------------>
+	
+	<section class="blog-content">
+		<div class="row">
+			<div class="left-blog">
+				<img src="certificate.jpg">
+				<h2>Our Certificate & Programs for 2022</h2>
+				<p>A certificate of appreciation is a certificate to appreciate an employee for the exceptional work he/ she has done and achieved great results. There will be only a few people for whom praise might not matter, but it is a great source of external motivation for most people. It is a stupendous gesture to appreciate a person’s dedicated hard work towards the company. It will further motivate the employee to perform with such excellence in the future. Another advantage of awarding a tremendously determined employee with the certificate of appreciation will inspire others to work with their full potential, thereby bearing optimum results for the company. Appreciation or recognition also results in bringing synergy amongst the team members.</p>
+				<br>
+				<p>A certificate of appreciation is a certificate to appreciate an employee for the exceptional work he/ she has done and achieved great results. There will be only a few people for whom praise might not matter, but it is a great source of external motivation for most people. It is a stupendous gesture to appreciate a person’s dedicated hard work towards the company. It will further motivate the employee to perform with such excellence in the future. Another advantage of awarding a tremendously determined employee with the certificate of appreciation will inspire others to work with their full potential, thereby bearing optimum results for the company. Appreciation or recognition also results in bringing synergy amongst the team members.</p>
+				<br>
+				<p>A certificate of appreciation is a certificate to appreciate an employee for the exceptional work he/ she has done and achieved great results. There will be only a few people for whom praise might not matter, but it is a great source of external motivation for most people. It is a stupendous gesture to appreciate a person’s dedicated hard work towards the company. It will further motivate the employee to perform with such excellence in the future. Another advantage of awarding a tremendously determined employee with the certificate of appreciation will inspire others to work with their full potential, thereby bearing optimum results for the company. Appreciation or recognition also results in bringing synergy amongst the team members.</p>
+				
+				<div class="comment-box">
+					<h3>Leave a comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter Name">
+						<input type="email" placeholder="Enter Email">
+						<textarea rows="5" placeholder="Write you're comment"></textarea>
+						<button type="submit" class="red-btn">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class="right-blog">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>	
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>17</span>	
+				</div>
+				<div>
+					<span>Machine Learing</span>
+					<span>14</span>	
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>25</span>	
+				</div>
+				<div>
+					<span>AutoCAD</span>
+					<span>09</span>	
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>15</span>	
+				</div>
+				<div>
+					<span>Commerce</span>
+					<span>11</span>	
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!----------- Footer ------------>
+	
+	<section class="footer">
+		<h4>ABOUT US</h4>
+		<p>Capital University offers a selection of undergraduate and postgraduate courses in areas such as business, healthcare, project management, computing and more.<br> Our flexible degrees will provide you with an education that’s at the cutting edge of your field, helping you make your career ambitions reality.<br> In fact, in a recent survey, 9 out of 10 Arden students told us their career prospects have been enhanced by studying with us, even before graduation day.</p>
+		
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin"></i>
+		</div>
+		<p>ALL RIGHTS RESERVED INC.</p>
+	</section>
+	
+<!----------- Javascript for Menu ------------>	
+	
+	<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}	
+	</script>
+</body>
+</html>
